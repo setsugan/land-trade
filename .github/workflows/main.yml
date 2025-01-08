@@ -18,4 +18,4 @@ jobs:
           pip install requests yfinance beautifulsoup4
       - name: Run login script
         run: |
-          python login.py
+          python main.py
